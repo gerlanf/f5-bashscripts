@@ -64,7 +64,7 @@ case "$1" in
                 done
         ;;
         *)
-		echo "wrong option: $1"
+		echo "$MENSAGEM_USO"
 		exit 1
 	;;
 esac   
